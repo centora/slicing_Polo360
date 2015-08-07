@@ -1,0 +1,28 @@
+.socials{
+	@extend .clean-list;
+}
+.social-item{
+	display: inline-block;
+}
+.social-link{
+	width: 57px;
+	height: 57px;
+	text-indent: -999em;
+	display: block;
+	background: url('../images/icons/socials-icons.png') 0 0 no-repeat;
+	&.type-feed{
+		background-position: 0 0;
+	}
+	&.type-facebook{
+		background-position: -61px 0;
+	}
+	&.type-linkedin{
+		background-position: -123px 0;
+	}
+	&.type-youtube{
+		background-position: -184px 0;
+	}
+	&.type-twitter{
+		background-position: -245px 0;
+	}
+}

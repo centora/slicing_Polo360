@@ -14,7 +14,7 @@ Tags: Qualium Systems
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, ../sass/_normalize.scss */
+/* line 9, ../sass/base/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -27,7 +27,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, ../sass/_normalize.scss */
+/* line 19, ../sass/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -40,7 +40,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 33, ../sass/_normalize.scss */
+/* line 33, ../sass/base/_normalize.scss */
 article,
 aside,
 details,
@@ -61,7 +61,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 54, ../sass/_normalize.scss */
+/* line 54, ../sass/base/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -76,7 +76,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, ../sass/_normalize.scss */
+/* line 67, ../sass/base/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -86,7 +86,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 77, ../sass/_normalize.scss */
+/* line 77, ../sass/base/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -97,7 +97,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, ../sass/_normalize.scss */
+/* line 89, ../sass/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -105,7 +105,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 97, ../sass/_normalize.scss */
+/* line 97, ../sass/base/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -116,7 +116,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 109, ../sass/_normalize.scss */
+/* line 109, ../sass/base/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -124,7 +124,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 117, ../sass/_normalize.scss */
+/* line 117, ../sass/base/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -133,7 +133,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 126, ../sass/_normalize.scss */
+/* line 126, ../sass/base/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -142,7 +142,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 135, ../sass/_normalize.scss */
+/* line 135, ../sass/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -151,7 +151,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 144, ../sass/_normalize.scss */
+/* line 144, ../sass/base/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -160,7 +160,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 153, ../sass/_normalize.scss */
+/* line 153, ../sass/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -168,7 +168,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 161, ../sass/_normalize.scss */
+/* line 161, ../sass/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -177,12 +177,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 169, ../sass/_normalize.scss */
+/* line 169, ../sass/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 173, ../sass/_normalize.scss */
+/* line 173, ../sass/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -192,7 +192,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 184, ../sass/_normalize.scss */
+/* line 184, ../sass/base/_normalize.scss */
 img {
   border: 0;
 }
@@ -200,7 +200,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 192, ../sass/_normalize.scss */
+/* line 192, ../sass/base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -210,7 +210,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 203, ../sass/_normalize.scss */
+/* line 203, ../sass/base/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -218,7 +218,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 211, ../sass/_normalize.scss */
+/* line 211, ../sass/base/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -228,7 +228,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, ../sass/_normalize.scss */
+/* line 221, ../sass/base/_normalize.scss */
 pre {
   overflow: auto;
 }
@@ -236,7 +236,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, ../sass/_normalize.scss */
+/* line 229, ../sass/base/_normalize.scss */
 code,
 kbd,
 pre,
@@ -257,7 +257,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, ../sass/_normalize.scss */
+/* line 252, ../sass/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -274,7 +274,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, ../sass/_normalize.scss */
+/* line 266, ../sass/base/_normalize.scss */
 button {
   overflow: visible;
 }
@@ -285,7 +285,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, ../sass/_normalize.scss */
+/* line 277, ../sass/base/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -298,7 +298,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, ../sass/_normalize.scss */
+/* line 290, ../sass/base/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -312,7 +312,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, ../sass/_normalize.scss */
+/* line 302, ../sass/base/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -321,7 +321,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, ../sass/_normalize.scss */
+/* line 311, ../sass/base/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -332,7 +332,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, ../sass/_normalize.scss */
+/* line 322, ../sass/base/_normalize.scss */
 input {
   line-height: normal;
 }
@@ -344,7 +344,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, ../sass/_normalize.scss */
+/* line 334, ../sass/base/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -358,7 +358,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, ../sass/_normalize.scss */
+/* line 346, ../sass/base/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -369,7 +369,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 357, ../sass/_normalize.scss */
+/* line 357, ../sass/base/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -384,7 +384,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 370, ../sass/_normalize.scss */
+/* line 370, ../sass/base/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -393,7 +393,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 379, ../sass/_normalize.scss */
+/* line 379, ../sass/base/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -404,7 +404,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 390, ../sass/_normalize.scss */
+/* line 390, ../sass/base/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -415,7 +415,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 399, ../sass/_normalize.scss */
+/* line 399, ../sass/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -424,7 +424,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 408, ../sass/_normalize.scss */
+/* line 408, ../sass/base/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -434,13 +434,13 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 419, ../sass/_normalize.scss */
+/* line 419, ../sass/base/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 424, ../sass/_normalize.scss */
+/* line 424, ../sass/base/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -448,10 +448,179 @@ th {
 
 /******* MIXINS *******/
 /******* // MIXINS *******/
+/* line 1, ../sass/base/_helpers.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 9, ../sass/base/_helpers.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* start commented backslash hack \*/
+/* line 11, ../sass/base/_helpers.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 12, ../sass/base/_helpers.scss */
+.clearfix {
+  display: block;
+}
+
+/* close commented backslash hack */
+/* line 16, ../sass/base/_helpers.scss */
+.clean-list, .socials, .site-nav-list, .gallery-list, .features-list, .main-parts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 21, ../sass/base/_helpers.scss */
+.clean-link, .logo-link, .site-nav-link {
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+}
+/* line 26, ../sass/base/_helpers.scss */
+.clean-link:focus, .logo-link:focus, .site-nav-link:focus, .clean-link:visited, .logo-link:visited, .site-nav-link:visited {
+  outline: none;
+}
+/* line 30, ../sass/base/_helpers.scss */
+.clean-link img, .logo-link img, .site-nav-link img {
+  border: none;
+}
+
+/* line 34, ../sass/base/_helpers.scss */
+.img-container, .feature-pic-hold {
+  line-height: 0;
+  font-size: 0;
+}
+/* line 37, ../sass/base/_helpers.scss */
+.img-container img, .feature-pic-hold img {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+/* line 4, ../sass/base/_socials.scss */
+.social-item {
+  display: inline-block;
+}
+
+/* line 7, ../sass/base/_socials.scss */
+.social-link {
+  width: 57px;
+  height: 57px;
+  text-indent: -999em;
+  display: block;
+  background: url("../images/icons/socials-icons.png") 0 0 no-repeat;
+}
+/* line 13, ../sass/base/_socials.scss */
+.social-link.type-feed {
+  background-position: 0 0;
+}
+/* line 16, ../sass/base/_socials.scss */
+.social-link.type-facebook {
+  background-position: -61px 0;
+}
+/* line 19, ../sass/base/_socials.scss */
+.social-link.type-linkedin {
+  background-position: -123px 0;
+}
+/* line 22, ../sass/base/_socials.scss */
+.social-link.type-youtube {
+  background-position: -184px 0;
+}
+/* line 25, ../sass/base/_socials.scss */
+.social-link.type-twitter {
+  background-position: -245px 0;
+}
+
+/* line 1, ../sass/base/_buttons.scss */
+.btn {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  background: #ebebeb;
+  background: #e8e8e8;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #e8e8e8 0%, #ffffff 36%, #e8e8e8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #e8e8e8), color-stop(36%, #ffffff), color-stop(100%, #e8e8e8));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #e8e8e8 0%, #ffffff 36%, #e8e8e8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #e8e8e8 0%, #ffffff 36%, #e8e8e8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #e8e8e8 0%, #ffffff 36%, #e8e8e8 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #e8e8e8 0%, #ffffff 36%, #e8e8e8 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#e8e8e8',GradientType=1 );
+  /* IE6-9 */
+  color: #016999;
+  border-radius: 4px;
+  border: 1px solid #d8d8d8;
+  padding: 10px 60px 10px 20px;
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+/* line 24, ../sass/base/_buttons.scss */
+.btn:before {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  background: url("../images/icons/btn-arrow-blue.png") 0 0 no-repeat;
+  width: 17px;
+  height: 7px;
+  content: "";
+}
+/* line 34, ../sass/base/_buttons.scss */
+.btn:hover {
+  background-position: 100px;
+}
+
+/* line 38, ../sass/base/_buttons.scss */
+.main-parts-btn {
+  font-size: 13px;
+  color: #ffffff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#426f9c+0,4881af+49,3f709b+50,4881af+50,2f6192+100 */
+  background: #426f9c;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #426f9c 0%, #4881af 49%, #3f709b 50%, #4881af 50%, #2f6192 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #426f9c), color-stop(49%, #4881af), color-stop(50%, #3f709b), color-stop(50%, #4881af), color-stop(100%, #2f6192));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #426f9c 0%, #4881af 49%, #3f709b 50%, #4881af 50%, #2f6192 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #426f9c 0%, #4881af 49%, #3f709b 50%, #4881af 50%, #2f6192 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #426f9c 0%, #4881af 49%, #3f709b 50%, #4881af 50%, #2f6192 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #426f9c 0%, #4881af 49%, #3f709b 50%, #4881af 50%, #2f6192 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#426f9c', endColorstr='#2f6192',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 50, ../sass/base/_buttons.scss */
+.main-parts-btn:before {
+  background-image: url("../images/icons/btn-arrow-white.png");
+}
+
 /* 
  *  Owl Carousel - Animate Plugin
  */
-/* line 4, ../sass/_owl.carousel.scss */
+/* line 4, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
@@ -459,17 +628,17 @@ th {
   animation-fill-mode: both;
 }
 
-/* line 10, ../sass/_owl.carousel.scss */
+/* line 10, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-animated-in {
   z-index: 0;
 }
 
-/* line 13, ../sass/_owl.carousel.scss */
+/* line 13, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-animated-out {
   z-index: 1;
 }
 
-/* line 16, ../sass/_owl.carousel.scss */
+/* line 16, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
@@ -494,7 +663,7 @@ th {
 /* 
  * 	Owl Carousel - Auto Height Plugin
  */
-/* line 43, ../sass/_owl.carousel.scss */
+/* line 43, ../sass/plugins/_owl.carousel.scss */
 .owl-height {
   -webkit-transition: height 500ms ease-in-out;
   -moz-transition: height 500ms ease-in-out;
@@ -506,7 +675,7 @@ th {
 /* 
  *  Core Owl Carousel CSS File
  */
-/* line 54, ../sass/_owl.carousel.scss */
+/* line 54, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel {
   display: none;
   width: 100%;
@@ -516,13 +685,13 @@ th {
   z-index: 1;
 }
 
-/* line 62, ../sass/_owl.carousel.scss */
+/* line 62, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-stage {
   position: relative;
   -ms-touch-action: pan-Y;
 }
 
-/* line 66, ../sass/_owl.carousel.scss */
+/* line 66, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-stage:after {
   content: ".";
   display: block;
@@ -532,7 +701,7 @@ th {
   height: 0;
 }
 
-/* line 74, ../sass/_owl.carousel.scss */
+/* line 74, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
@@ -540,7 +709,7 @@ th {
   -webkit-transform: translate3d(0px, 0px, 0px);
 }
 
-/* line 80, ../sass/_owl.carousel.scss */
+/* line 80, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-controls .owl-nav .owl-prev,
 .owl-carousel .owl-controls .owl-nav .owl-next,
 .owl-carousel .owl-controls .owl-dot {
@@ -553,28 +722,28 @@ th {
   user-select: none;
 }
 
-/* line 91, ../sass/_owl.carousel.scss */
+/* line 91, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel.owl-loaded {
   display: block;
 }
 
-/* line 94, ../sass/_owl.carousel.scss */
+/* line 94, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel.owl-loading {
   opacity: 0;
   display: block;
 }
 
-/* line 98, ../sass/_owl.carousel.scss */
+/* line 98, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel.owl-hidden {
   opacity: 0;
 }
 
-/* line 101, ../sass/_owl.carousel.scss */
+/* line 101, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-refresh .owl-item {
   display: none;
 }
 
-/* line 104, ../sass/_owl.carousel.scss */
+/* line 104, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-item {
   position: relative;
   min-height: 1px;
@@ -588,14 +757,14 @@ th {
   user-select: none;
 }
 
-/* line 116, ../sass/_owl.carousel.scss */
+/* line 116, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-item img {
   display: block;
   width: 100%;
   -webkit-transform-style: preserve-3d;
 }
 
-/* line 121, ../sass/_owl.carousel.scss */
+/* line 121, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel.owl-text-select-on .owl-item {
   -webkit-user-select: auto;
   -moz-user-select: auto;
@@ -603,7 +772,7 @@ th {
   user-select: auto;
 }
 
-/* line 127, ../sass/_owl.carousel.scss */
+/* line 127, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-grab {
   cursor: move;
   cursor: -webkit-grab;
@@ -612,18 +781,18 @@ th {
   cursor: grab;
 }
 
-/* line 134, ../sass/_owl.carousel.scss */
+/* line 134, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel.owl-rtl {
   direction: rtl;
 }
 
-/* line 137, ../sass/_owl.carousel.scss */
+/* line 137, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel.owl-rtl .owl-item {
   float: right;
 }
 
 /* No Js */
-/* line 142, ../sass/_owl.carousel.scss */
+/* line 142, ../sass/plugins/_owl.carousel.scss */
 .no-js .owl-carousel {
   display: block;
 }
@@ -631,7 +800,7 @@ th {
 /* 
  * 	Owl Carousel - Lazy Load Plugin
  */
-/* line 149, ../sass/_owl.carousel.scss */
+/* line 149, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
   -webkit-transition: opacity 400ms ease;
@@ -641,7 +810,7 @@ th {
   transition: opacity 400ms ease;
 }
 
-/* line 157, ../sass/_owl.carousel.scss */
+/* line 157, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
 }
@@ -649,14 +818,14 @@ th {
 /* 
  * 	Owl Carousel - Video Plugin
  */
-/* line 164, ../sass/_owl.carousel.scss */
+/* line 164, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
   background: #000;
 }
 
-/* line 169, ../sass/_owl.carousel.scss */
+/* line 169, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-video-play-icon {
   position: absolute;
   height: 80px;
@@ -676,7 +845,7 @@ th {
   transition: scale 100ms ease;
 }
 
-/* line 187, ../sass/_owl.carousel.scss */
+/* line 187, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-video-play-icon:hover {
   -webkit-transition: scale(1.3, 1.3);
   -moz-transition: scale(1.3, 1.3);
@@ -685,13 +854,13 @@ th {
   transition: scale(1.3, 1.3);
 }
 
-/* line 194, ../sass/_owl.carousel.scss */
+/* line 194, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-video-playing .owl-video-tn,
 .owl-carousel .owl-video-playing .owl-video-play-icon {
   display: none;
 }
 
-/* line 198, ../sass/_owl.carousel.scss */
+/* line 198, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-video-tn {
   opacity: 0;
   height: 100%;
@@ -708,7 +877,7 @@ th {
   transition: opacity 400ms ease;
 }
 
-/* line 213, ../sass/_owl.carousel.scss */
+/* line 213, ../sass/plugins/_owl.carousel.scss */
 .owl-carousel .owl-video-frame {
   position: relative;
   z-index: 1;
@@ -742,111 +911,26 @@ html {
   float: left;
 }
 
-/* line 19, ../sass/layout/_header.scss */
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-
-/* line 27, ../sass/layout/_header.scss */
-.clearfix {
-  display: inline-block;
-}
-
-/* start commented backslash hack \*/
-/* line 29, ../sass/layout/_header.scss */
-* html .clearfix {
-  height: 1%;
-}
-
-/* line 30, ../sass/layout/_header.scss */
-.clearfix {
-  display: block;
-}
-
-/* close commented backslash hack */
-/* line 34, ../sass/layout/_header.scss */
-.clean-list, .site-nav-list, .gallery-list, .features-list, .main-parts-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* line 39, ../sass/layout/_header.scss */
-.clean-link, .logo-link, .site-nav-link {
-  text-decoration: none;
-  color: inherit;
-  font: inherit;
-}
-/* line 44, ../sass/layout/_header.scss */
-.clean-link:focus, .logo-link:focus, .site-nav-link:focus, .clean-link:visited, .logo-link:visited, .site-nav-link:visited {
-  outline: none;
-}
-/* line 48, ../sass/layout/_header.scss */
-.clean-link img, .logo-link img, .site-nav-link img {
-  border: none;
-}
-
-/* line 52, ../sass/layout/_header.scss */
-.img-container, .feature-pic-hold {
-  line-height: 0;
-  font-size: 0;
-}
-/* line 55, ../sass/layout/_header.scss */
-.img-container img, .feature-pic-hold img {
-  font-size: 12px;
-  line-height: 1.2;
-}
-
-/* line 61, ../sass/layout/_header.scss */
-.btn {
-  position: relative;
-  display: inline-block;
-  background: #ebebeb;
-  color: #016999;
-  border-radius: 4px;
-  border: 1px solid #d8d8d8;
-  padding: 10px 60px 10px 20px;
-}
-/* line 69, ../sass/layout/_header.scss */
-.btn:before {
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  -webkit-transform: translate(0, -50%);
-  -moz-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  background: url("../images/icons/btn-arrow-blue.png") 0 0 no-repeat;
-  width: 17px;
-  height: 7px;
-  content: "";
-}
-
 /* //Logo*/
 /*Site nav*/
-/* line 88, ../sass/layout/_header.scss */
+/* line 26, ../sass/layout/_header.scss */
 .site-nav {
   overflow: hidden;
 }
 
-/* line 91, ../sass/layout/_header.scss */
+/* line 29, ../sass/layout/_header.scss */
 .site-nav-list {
   text-transform: uppercase;
   color: #666666;
   font: 14px/1.2 Georgia, Times, "Times New Roman", serif;
 }
 
-/* line 97, ../sass/layout/_header.scss */
+/* line 35, ../sass/layout/_header.scss */
 .site-nav-item {
   display: inline-block;
 }
 
-/* line 103, ../sass/layout/_header.scss */
+/* line 41, ../sass/layout/_header.scss */
 .site-nav-link-tip {
   display: block;
   text-transform: none;

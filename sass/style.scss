@@ -10,9 +10,12 @@ Tags: Qualium Systems
 
 /******* BASE *******/
 @import
-    "normalize",
-    "mixins",
-    "owl.carousel",
+    "base/normalize",
+    "base/mixins",
+    "base/helpers",
+    "base/socials",
+    "base/buttons",
+    "plugins/owl.carousel",
     "layout/layout";
     
 /******* // BASE *******/

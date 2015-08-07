@@ -1,0 +1,208 @@
+/******* MIXINS *******/
+
+// Layout
+@mixin absoluteCenter($horizontal: false, $vertical: false) {
+    margin: auto;
+    position: absolute;
+
+    @if $horizontal {
+        left: 0;
+        right: 0;
+    }
+
+    @if $vertical {
+        top: 0;
+        bottom: 0;
+    }
+}
+
+@mixin translate($tX: false, $tY: false) {
+    $vendors: "-webkit-", "-moz-", "-ms-";
+
+    @if not ($tX == false) and (not ($tY == false)) {
+        @each $vendor in $vendors {
+            #{$vendor}transform: translate($tX, $tY);
+        }
+        transform: translate($tX, $tY);
+    } @else if $tX and ($tY == false) {
+        @each $vendor in $vendors {
+            #{$vendor}transform: translateX($tX);
+        }
+        transform: translateX($tX);
+    } @else if $tY and ($tX == false) {
+        @each $vendor in $vendors {
+            #{$vendor}transform: translateY($tY);
+        }
+        transform: translateY($tY);
+    }
+}
+
+@mixin rotate($degree: 0deg) {
+    $vendors: "-webkit-", "-moz-", "-ms-";
+    @each $vendor in $vendors {
+        #{$vendor}transform: rotate($degree);
+    }
+    transform: rotate($degree);
+}
+
+@mixin boxSizing($type: border-box) {
+    $vendors: "-webkit-", "-moz-";
+
+    @each $vendor in $vendors {
+        #{$vendor}box-sizing: $type;
+    }
+    box-sizing: $type;
+}
+
+// Decor
+@mixin setSelection($BG: none, $Color: inherit, $Border: none, $Outline: none) {
+    $vendors: "-moz-", "-webkit-";
+
+    @each $vendor in $vendors {
+        ::#{$vendor}selection {
+            background: $BG;
+            color: $Color;
+            border: $Border;
+            outline: $Outline;
+        }
+    }
+    ::selection {
+        background: $BG;
+        color: $Color;
+        border: $Border;
+        outline: $Outline;
+    }
+}
+
+@mixin userSelect {
+    $vendors: "-webkit-", "-moz-", "-ms-";
+
+    @each $vendor in $vendors {
+        #{$vendor}user-select: none;
+    }
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+@mixin arrowTop($right, $bottom, $left, $color) {
+    width: 0;
+    height: 0;
+    border-right: $right solid transparent;
+    border-bottom: $bottom solid $color;
+    border-left: $left solid transparent;
+}
+
+@mixin arrowRight($top, $bottom, $left, $color) {
+    width: 0;
+    height: 0;
+    border-top: $top solid transparent;
+    border-bottom: $bottom solid transparent;
+    border-left: $left solid $color;
+}
+
+@mixin arrowBottom($top, $right, $left, $color) {
+    width: 0;
+    height: 0;
+    border-top: $top solid $color;
+    border-right: $right solid transparent;
+    border-left: $left solid transparent;
+}
+
+@mixin arrowLeft($top, $right, $bottom, $color) {
+    width: 0;
+    height: 0;
+    border-top: $top solid transparent;
+    border-right: $right solid $color;
+    border-bottom: $bottom solid transparent;
+}
+
+@mixin flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin inlineFlexbox {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+@mixin flex($values) {
+    -webkit-box-flex: $values;
+    -moz-box-flex: $values;
+    -webkit-flex: $values;
+    -ms-flex: $values;
+    flex: $values;
+}
+
+@mixin flexFlow($values) {
+    -moz-flex-flow: $values;
+    -webkit-flex-flow: $values;
+    flex-flow: $values;
+}
+
+@mixin flexDirection($direction) {
+    -moz-flex-direction: $direction;
+    -webkit-flex-direction: $direction;
+    flex-direction: $direction;
+}
+
+@mixin justifyContent($type) {
+    -moz-justify-content: $type;
+    -webkit-justify-content: $type;
+    justify-content: $type;
+}
+
+@mixin alignItems($type) {
+    -webkit-align-items: $type;
+    -ms-flex-align: $type;
+    align-items: $type;
+}
+
+@mixin alignContent($type) {
+    -webkit-align-content: $type;
+    align-content: $type;
+}
+
+@mixin alignSelf($type) {
+    -webkit-align-self: $type;
+    align-self: $type;
+}
+
+@mixin order($value) {
+    -webkit-box-ordinal-group: $value;
+    -webkit-order: $value;
+    -moz-box-ordinal-group: $value;
+    -ms-flex-order: $value;
+    order: $value;
+}
+
+// Forms
+@mixin placeholder($color: #a0a0a0, $font: Arial) {
+    &::-webkit-input-placeholder,
+    &:-moz-placeholder,
+    &::-moz-placeholder,
+    &:-ms-input-placeholder {
+        color: $color;
+        font-family: $font;
+    }
+
+    &:-moz-placeholder,
+    &::-moz-placeholder {
+        opacity: 1;
+    }
+}
+
+// Text
+@mixin trimString {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/******* // MIXINS *******/
